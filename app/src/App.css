@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+	justify-content: space-between;
+}
+
+.notes {
+  border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+.json {
+	border: 1px solid gray;
+  border-radius: 0.5rem;
+	margin: 20px 10px;
+	max-height: calc(100dvh - 100px);
+  overflow: auto;
+  padding: 1rem;
+	position: sticky;
+	top: 20px;
+	width: 30rem;
+}

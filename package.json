@@ -1,0 +1,15 @@
+{
+  "name": "blocknote-test",
+  "version": "1.0.0",
+  "description": "Test blocknote",
+  "author": "Aurélien BERA",
+  "devDependencies": {
+    "create-react-app": "^5.0.1"
+  },
+	"private": "true",
+  "volta": {
+    "node": "20.11.1",
+    "yarn": "1.22.19"
+  },
+	"workspaces":["app"]
+}
